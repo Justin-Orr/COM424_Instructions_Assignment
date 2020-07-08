@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+/* Style the navbar */
+#navbar {
+  background-color: #000000;
+  position: fixed;
+  width: 100%;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Change color when hovering a button */
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar #logoAnchor {
+  padding: 3px;
+}
+
+#navbar #logoAnchor:hover {
+  padding: 3px;
+  background-color: black;
+}
+
+#holmeslogo {
+  height: 35px;
+}
